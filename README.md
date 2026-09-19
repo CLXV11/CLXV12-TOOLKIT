@@ -38,7 +38,7 @@
 
 ```bash
 pkg install python
-curl -L https://raw.githubusercontent.com/YOUR_USERNAME/clxv12/main/clxv12.py -o ~/clxv12.py
+curl -L https://raw.githubusercontent.com/CLXV11/CLXV12-TOOLKIT/main/clxv12.py -o ~/clxv12.py
 python ~/clxv12.py --selftest
 ```
 
