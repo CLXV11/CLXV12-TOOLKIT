@@ -117,3 +117,36 @@ python ~/clxv12.py --selftest    # 121 اختباراً — يجب أن ترى 1
 *Built with discipline on a phone. No excuses.*
 
 </div>
+```mermaid
+mindmap
+  root((CLXV12<br/>TOOLKIT))
+    🌐 Network
+      Wi-Fi Audit
+      Port Check
+      Subnet Scan
+      Ping
+    📦 APK Engine
+      AXML Parser
+      Signature v1-v4
+      Safe Extract
+      Compare + Sign
+    🗂️ Projects
+      Auto-discovery
+      Build Plans
+      40 projects found
+    🛡️ Security
+      Path Containment
+      Credential Redaction
+      Verified Backups
+      Undo Journal
+    🗜️ Archives
+      ZIP / TAR / 7z
+      Bomb Protection
+      Traversal Blocked
+    🧰 System
+      Doctor 0 FAIL
+      Health 8/8
+      Benchmark
+      Git
+```
+
