@@ -127,18 +127,53 @@ python ~/clxv12.py --selftest    # 121 اختباراً — يجب أن ترى 1
 ```mermaid
 flowchart LR
     ROOT((CLXV12<br/>TOOLKIT))
-    ROOT --> NET["🌐 Network<br/>Wi-Fi Audit · Port Check<br/>Subnet Scan · Ping"]
-    ROOT --> APK["📦 APK Engine<br/>AXML Parser · Sign v1-v4<br/>Safe Extract · Compare"]
-    ROOT --> PROJ["🗂️ Projects<br/>Auto-discovery<br/>Build Plans · 40 found"]
-    ROOT --> SEC["🛡️ Security<br/>Path Containment<br/>Redaction · Backups · Undo"]
-    ROOT --> ARC["🗜️ Archives<br/>ZIP / TAR / 7z<br/>Bomb · Traversal blocked"]
-    ROOT --> SYS["🧰 System<br/>Doctor 0 FAIL<br/>Health 8/8 · Benchmark · Git"]
 
-    style ROOT fill:#0d2b1f,stroke:#00dcb8,stroke-width:3px,color:#fff
-    style NET fill:#1a2332,stroke:#3b82f6,color:#fff
-    style APK fill:#1a2332,stroke:#f59e0b,color:#fff
-    style PROJ fill:#1a2332,stroke:#a855f7,color:#fff
-    style SEC fill:#1a2332,stroke:#22c55e,color:#fff
-    style ARC fill:#1a2332,stroke:#06b6d4,color:#fff
-    style SYS fill:#1a2332,stroke:#ef4444,color:#fff
+    ROOT --> NET["NETWORK"]
+    ROOT --> APK["APK ENGINE"]
+    ROOT --> PRJ["PROJECTS"]
+    ROOT --> SEC["SECURITY"]
+    ROOT --> ARC["ARCHIVES"]
+    ROOT --> SYS["SYSTEM"]
+
+    NET --> N1["Wi-Fi Audit"]
+    NET --> N2["Port Check"]
+    NET --> N3["Subnet Scan"]
+    NET --> N4["Ping"]
+
+    APK --> A1["AXML Parser"]
+    APK --> A2["Signature v1-v4"]
+    APK --> A3["Safe Extract"]
+    APK --> A4["Compare + Sign"]
+
+    PRJ --> P1["Auto-discovery"]
+    PRJ --> P2["Build Plans"]
+    PRJ --> P3["Run Project"]
+
+    SEC --> S1["Path Containment"]
+    SEC --> S2["Redaction"]
+    SEC --> S3["Verified Backups"]
+    SEC --> S4["Undo Journal"]
+
+    ARC --> C1["ZIP / TAR"]
+    ARC --> C2["7z Ops"]
+
+    SYS --> Y1["Doctor"]
+    SYS --> Y2["Health"]
+    SYS --> Y3["Benchmark"]
+    SYS --> Y4["Git Engine"]
+
+    style ROOT fill:#0d2b1f,stroke:#00dcb8,stroke-width:4px,color:#fff
+    classDef net fill:#1a2332,stroke:#3b82f6,color:#fff
+    classDef apk fill:#1a2332,stroke:#f59e0b,color:#fff
+    classDef prj fill:#1a2332,stroke:#a855f7,color:#fff
+    classDef sec fill:#1a2332,stroke:#22c55e,color:#fff
+    classDef arc fill:#1a2332,stroke:#06b6d4,color:#fff
+    classDef sys fill:#1a2332,stroke:#ef4444,color:#fff
+    class NET,N1,N2,N3,N4 net
+    class APK,A1,A2,A3,A4 apk
+    class PRJ,P1,P2,P3 prj
+    class SEC,S1,S2,S3,S4 sec
+    class ARC,C1,C2 arc
+    class SYS,Y1,Y2,Y3,Y4 sys
 ```
+
