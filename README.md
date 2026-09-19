@@ -1,6 +1,8 @@
 <div align="center">
 
 # CLXV12 TOOLKIT
+<img src="assets/logo.svg" width="220" alt="CLXV12 logo"/>
+
 
 **Production-oriented, offline-first Termux/Android development suite — single file, standard library only.**
 
