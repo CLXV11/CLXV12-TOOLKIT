@@ -117,6 +117,7 @@ python ~/clxv12.py --selftest    # 121 اختباراً — يجب أن ترى 1
 *Built with discipline on a phone. No excuses.*
 
 </div>
+
 ```mermaid
 mindmap
   root((CLXV12<br/>TOOLKIT))
