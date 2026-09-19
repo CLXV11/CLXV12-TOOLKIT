@@ -10,12 +10,14 @@
 
 **Production-oriented, offline-first Termux/Android development suite — single file, standard library only.**
 
-[![Version](https://img.shields.io/badge/version-2.2.0-00dcb8?style=for-the-badge)]()
-[![Python](https://img.shields.io/badge/python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-[![Platform](https://img.shields.io/badge/platform-Termux%20%C2%B7%20Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)]()
-[![Tests](https://img.shields.io/badge/selftest-121%2F121%20PASS-00c853?style=for-the-badge)]()
-[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)]()
-[![Deps](https://img.shields.io/badge/dependencies-zero-ff6d00?style=for-the-badge)]()
+![selftest](https://github.com/CLXV11/CLXV12-TOOLKIT/actions/workflows/selftest.yml/badge.svg)
+![version](https://img.shields.io/badge/version-2.2.0-00dcb8?style=flat)
+![python](https://img.shields.io/badge/python-3.8+-3776AB?style=flat&logo=python&logoColor=white)
+![platform](https://img.shields.io/badge/Termux%20%C2%B7%20Android-3DDC84?style=flat&logo=android&logoColor=white)
+![selftest](https://img.shields.io/badge/121%2F121%20PASS-00c853?style=flat)
+![license](https://img.shields.io/badge/license-MIT-blue?style=flat)
+![deps](https://img.shields.io/badge/zero%20dependencies-ff6d00?style=flat)
+
 
 *One file. Zero dependencies. 21 engines. Real security.*
 
