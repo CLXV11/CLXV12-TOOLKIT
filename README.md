@@ -119,35 +119,20 @@ python ~/clxv12.py --selftest    # 121 اختباراً — يجب أن ترى 1
 </div>
 
 ```mermaid
-mindmap
-  root((CLXV12<br/>TOOLKIT))
-    🌐 Network
-      Wi-Fi Audit
-      Port Check
-      Subnet Scan
-      Ping
-    📦 APK Engine
-      AXML Parser
-      Signature v1-v4
-      Safe Extract
-      Compare + Sign
-    🗂️ Projects
-      Auto-discovery
-      Build Plans
-      40 projects found
-    🛡️ Security
-      Path Containment
-      Credential Redaction
-      Verified Backups
-      Undo Journal
-    🗜️ Archives
-      ZIP / TAR / 7z
-      Bomb Protection
-      Traversal Blocked
-    🧰 System
-      Doctor 0 FAIL
-      Health 8/8
-      Benchmark
-      Git
-```
+flowchart LR
+    ROOT((CLXV12<br/>TOOLKIT))
+    ROOT --> NET["🌐 Network<br/>Wi-Fi Audit · Port Check<br/>Subnet Scan · Ping"]
+    ROOT --> APK["📦 APK Engine<br/>AXML Parser · Sign v1-v4<br/>Safe Extract · Compare"]
+    ROOT --> PROJ["🗂️ Projects<br/>Auto-discovery<br/>Build Plans · 40 found"]
+    ROOT --> SEC["🛡️ Security<br/>Path Containment<br/>Redaction · Backups · Undo"]
+    ROOT --> ARC["🗜️ Archives<br/>ZIP / TAR / 7z<br/>Bomb · Traversal blocked"]
+    ROOT --> SYS["🧰 System<br/>Doctor 0 FAIL<br/>Health 8/8 · Benchmark · Git"]
 
+    style ROOT fill:#0d2b1f,stroke:#00dcb8,stroke-width:3px,color:#fff
+    style NET fill:#1a2332,stroke:#3b82f6,color:#fff
+    style APK fill:#1a2332,stroke:#f59e0b,color:#fff
+    style PROJ fill:#1a2332,stroke:#a855f7,color:#fff
+    style SEC fill:#1a2332,stroke:#22c55e,color:#fff
+    style ARC fill:#1a2332,stroke:#06b6d4,color:#fff
+    style SYS fill:#1a2332,stroke:#ef4444,color:#fff
+```
