@@ -121,10 +121,9 @@ python ~/clxv12.py --selftest    # 121 اختباراً — يجب أن ترى 1
 ```
 
 <div align="center">
-ؤ
-*Built with discipline on a phone. No excuses.*
-
+<em>Built with discipline on a phone. No excuses.</em>
 </div>
+
 
 
 <img src="assets/clxv12-engine-map.svg" width="100%" alt="CLXV12 Engine Map">
