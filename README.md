@@ -125,5 +125,6 @@ python ~/clxv12.py --selftest    # 121 اختباراً — يجب أن ترى 1
 </div>
 
 ```mermaid
-<img src="assets/clxv12-engine-map.svg" width="100%" alt="Engine Map">
+<img src="assets/clxv12-engine-map.svg" width="100%" alt="CLXV12 Engine Map">
+
 
