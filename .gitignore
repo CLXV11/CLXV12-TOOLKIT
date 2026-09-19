@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.clxv12/
+*.log
+.DS_Store
